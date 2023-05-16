@@ -1,0 +1,33 @@
+.card1, .card2, .card3, .card4 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.card1 {
+    background-color: lightblue;
+}
+
+.card2 {
+    background-color: lightcoral;
+}
+
+.card3 {
+    background-color: lightgreen;
+}
+
+.card4 {
+    background-color: lightsalmon;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex1, .flex2 {
+    display: flex;
+}
